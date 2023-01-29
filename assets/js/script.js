@@ -111,7 +111,7 @@ function getWeatherForecast(lat,lon){
          for (var i = data.list.length-1; i >= 0; i=i-arrayInterval){
             console.log(i);
 
-            const date = dayjs.unix(data.list[i].dt).format('D/M/YYYY')
+            const date = dayjs.unix(data.list[i].dt).format('M/D/YYYY')
 
             const infoContainer = document.createElement("div");
             const listEl = document.createElement("li");
