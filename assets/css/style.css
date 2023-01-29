@@ -3,7 +3,7 @@
     justify-content: center;
     padding: 10px;
     color: white;
-    background-color: rgb(69, 9, 124);
+    background-color: darkblue;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -60,7 +60,7 @@ li{
     width: 100%;
     margin-top: 10px;
     padding: 10px;
-    background-color: rgb(15, 96, 210);
+    background-color: rgb(91, 91, 231);
     color: azure;
     font-weight: bold;
     font-size: 18px;
