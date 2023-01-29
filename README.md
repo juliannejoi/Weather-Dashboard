@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-// (add URL of deployed application)
+https://juliannejoi.github.io/Weather-Dashboard/
 
 ## Description
 This application is desgined for travelers who want to see the weather outlook for multiple cities so that they may plan a trip accordingly.
