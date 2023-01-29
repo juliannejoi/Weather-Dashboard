@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-// (add URL of deployed application)
+https://juliannejoi.github.io/Weather-Dashboard/
 
 ## Description
 This application is desgined for travelers who want to see the weather outlook for multiple cities so that they may plan a trip accordingly.
@@ -25,3 +25,6 @@ THEN the traveler is again presented with current and future conditions for that
 The following image shows the web application's appearance and functionality:
 
 ![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Images/06-server-side-apis-homework-demo.png)
+
+## Sources
+https://openweathermap.org/api
