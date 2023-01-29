@@ -1,49 +1,84 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+#weather-dashboard{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(69, 9, 124);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-body {
-    background-color: white;
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px;
 }
 
-.header {
-    padding: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(2, 2, 74);
-    color: #ffffff;
-    text-align: center;
+p{
+    font-size: 20px;
+    margin: 5px;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+ol{
+    padding: 0px;
 }
 
-.content {
-    width: 20%;
-    display: inline-block;
+li{
+    list-style: none;
 }
 
-.search-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    height: 300px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: white;
-    color: black;
-    font-size: 24px;
+.forecast-ol{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
+#weather-info{
+    display: flex;
+    justify-content: space-around;
 }
 
-.footer h2 {
-    font-size: 15px;
+#search-info{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+#weather-result{
+    width:79%;
+}
+
+#today-weather{
+    border: 2px solid rgb(128, 128, 128);
+    height: 160px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(15, 96, 210);
+    color: azure;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#search-input{
+    width: 96%;
+    /* padding: 10px; */
+    height: 40px;
+}
+
+#search-city{
+    display: flex;
+    justify-content: center;
+}
+
+#search-form{
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(8, 3, 30);
 }
 
