@@ -1,5 +1,5 @@
 
-const openWeatherMapAPIKey = "50683084c635b159436650822e72d357";
+const openWeatherMapAPIKey = "c5e113a31152a4fbad535451b0193e7c";
 const units = "imperial";
 const searchInputEl = document.querySelector("#search-input");
 const searchFormEl = document.querySelector("#search-form");
