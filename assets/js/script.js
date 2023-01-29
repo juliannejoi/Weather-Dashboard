@@ -33,7 +33,7 @@ function getWeatherAPI(){
             // console.log(data.wind.speed);
             // console.log(data.main.humidity);
 
-            const date = dayjs.unix(data.dt).format('D/M/YYYY')
+            const date = dayjs.unix(data.dt).format('M/D/YYYY')
 
             while(todayWeatherEl.lastElementChild){
                 todayWeatherEl.removeChild(todayWeatherEl.lastElementChild);
